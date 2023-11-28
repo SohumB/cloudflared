@@ -29,11 +29,12 @@ const (
 	contentTypeHeader = "content-type"
 	sseContentType    = "text/event-stream"
 	grpcContentType   = "application/grpc"
+        ndjsonContentType = "application/x-ndjson"
 )
 
 var (
 	switchingProtocolText = fmt.Sprintf("%d %s", http.StatusSwitchingProtocols, http.StatusText(http.StatusSwitchingProtocols))
-	flushableContentTypes = []string{sseContentType, grpcContentType}
+	flushableContentTypes = []string{sseContentType, grpcContentType, ndjsonContentType}
 )
 
 type Orchestrator interface {
