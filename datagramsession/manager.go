@@ -9,8 +9,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/rs/zerolog"
 
-	"github.com/cloudflare/cloudflared/management"
-	"github.com/cloudflare/cloudflared/packet"
+	"github.com/sohumb/cloudflared/management"
+	"github.com/sohumb/cloudflared/packet"
 )
 
 const (

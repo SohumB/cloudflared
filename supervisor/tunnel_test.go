@@ -8,9 +8,9 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cloudflare/cloudflared/connection"
-	"github.com/cloudflare/cloudflared/edgediscovery"
-	"github.com/cloudflare/cloudflared/retry"
+	"github.com/sohumb/cloudflared/connection"
+	"github.com/sohumb/cloudflared/edgediscovery"
+	"github.com/sohumb/cloudflared/retry"
 )
 
 type dynamicMockFetcher struct {

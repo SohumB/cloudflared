@@ -18,12 +18,12 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudflare/cloudflared/config"
-	"github.com/cloudflare/cloudflared/connection"
-	"github.com/cloudflare/cloudflared/ingress"
-	"github.com/cloudflare/cloudflared/management"
-	"github.com/cloudflare/cloudflared/tracing"
-	tunnelpogs "github.com/cloudflare/cloudflared/tunnelrpc/pogs"
+	"github.com/sohumb/cloudflared/config"
+	"github.com/sohumb/cloudflared/connection"
+	"github.com/sohumb/cloudflared/ingress"
+	"github.com/sohumb/cloudflared/management"
+	"github.com/sohumb/cloudflared/tracing"
+	tunnelpogs "github.com/sohumb/cloudflared/tunnelrpc/pogs"
 )
 
 var (

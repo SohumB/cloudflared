@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudflare/cloudflared/tunnelrpc"
+	"github.com/sohumb/cloudflared/tunnelrpc"
 	"github.com/google/uuid"
 	capnp "zombiezen.com/go/capnproto2"
 	"zombiezen.com/go/capnproto2/rpc"

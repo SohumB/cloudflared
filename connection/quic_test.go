@@ -22,11 +22,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudflare/cloudflared/datagramsession"
-	quicpogs "github.com/cloudflare/cloudflared/quic"
-	"github.com/cloudflare/cloudflared/tracing"
-	"github.com/cloudflare/cloudflared/tunnelrpc/pogs"
-	tunnelpogs "github.com/cloudflare/cloudflared/tunnelrpc/pogs"
+	"github.com/sohumb/cloudflared/datagramsession"
+	quicpogs "github.com/sohumb/cloudflared/quic"
+	"github.com/sohumb/cloudflared/tracing"
+	"github.com/sohumb/cloudflared/tunnelrpc/pogs"
+	tunnelpogs "github.com/sohumb/cloudflared/tunnelrpc/pogs"
 )
 
 var (

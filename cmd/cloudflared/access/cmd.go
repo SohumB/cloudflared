@@ -17,12 +17,12 @@ import (
 	"github.com/urfave/cli/v2"
 	"golang.org/x/net/idna"
 
-	"github.com/cloudflare/cloudflared/carrier"
-	"github.com/cloudflare/cloudflared/cmd/cloudflared/cliutil"
-	"github.com/cloudflare/cloudflared/logger"
-	"github.com/cloudflare/cloudflared/sshgen"
-	"github.com/cloudflare/cloudflared/token"
-	"github.com/cloudflare/cloudflared/validation"
+	"github.com/sohumb/cloudflared/carrier"
+	"github.com/sohumb/cloudflared/cmd/cloudflared/cliutil"
+	"github.com/sohumb/cloudflared/logger"
+	"github.com/sohumb/cloudflared/sshgen"
+	"github.com/sohumb/cloudflared/token"
+	"github.com/sohumb/cloudflared/validation"
 )
 
 const (

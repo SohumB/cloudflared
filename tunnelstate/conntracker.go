@@ -5,7 +5,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/cloudflare/cloudflared/connection"
+	"github.com/sohumb/cloudflared/connection"
 )
 
 type ConnTracker struct {

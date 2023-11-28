@@ -19,10 +19,10 @@ import (
 	"golang.org/x/net/proxy"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/cloudflare/cloudflared/logger"
-	"github.com/cloudflare/cloudflared/socks"
-	"github.com/cloudflare/cloudflared/stream"
-	"github.com/cloudflare/cloudflared/websocket"
+	"github.com/sohumb/cloudflared/logger"
+	"github.com/sohumb/cloudflared/socks"
+	"github.com/sohumb/cloudflared/stream"
+	"github.com/sohumb/cloudflared/websocket"
 )
 
 const (

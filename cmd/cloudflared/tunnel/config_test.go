@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudflare/cloudflared/features"
+	"github.com/sohumb/cloudflared/features"
 )
 
 func TestDedup(t *testing.T) {

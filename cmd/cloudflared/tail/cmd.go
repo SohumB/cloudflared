@@ -17,10 +17,10 @@ import (
 	"github.com/urfave/cli/v2"
 	"nhooyr.io/websocket"
 
-	"github.com/cloudflare/cloudflared/cmd/cloudflared/cliutil"
-	"github.com/cloudflare/cloudflared/credentials"
-	"github.com/cloudflare/cloudflared/logger"
-	"github.com/cloudflare/cloudflared/management"
+	"github.com/sohumb/cloudflared/cmd/cloudflared/cliutil"
+	"github.com/sohumb/cloudflared/credentials"
+	"github.com/sohumb/cloudflared/logger"
+	"github.com/sohumb/cloudflared/management"
 )
 
 var (

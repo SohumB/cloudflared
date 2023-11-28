@@ -24,7 +24,7 @@ endif
 DATE          := $(shell date -u '+%Y-%m-%d-%H%M UTC')
 VERSION_FLAGS := -X "main.Version=$(VERSION)" -X "main.BuildTime=$(DATE)"
 ifdef PACKAGE_MANAGER
-	VERSION_FLAGS := $(VERSION_FLAGS) -X "github.com/cloudflare/cloudflared/cmd/cloudflared/updater.BuiltForPackageManager=$(PACKAGE_MANAGER)"
+	VERSION_FLAGS := $(VERSION_FLAGS) -X "github.com/sohumb/cloudflared/cmd/cloudflared/updater.BuiltForPackageManager=$(PACKAGE_MANAGER)"
 endif
 
 LINK_FLAGS :=
@@ -44,7 +44,7 @@ ifeq ($(debug), 1)
 	GO_BUILD_TAGS += -gcflags="all=-N -l"
 endif
 
-IMPORT_PATH    := github.com/cloudflare/cloudflared
+IMPORT_PATH    := github.com/sohumb/cloudflared
 PACKAGE_DIR    := $(CURDIR)/packaging
 PREFIX         := /usr
 INSTALL_BINDIR := $(PREFIX)/bin/
@@ -182,7 +182,7 @@ define build_package
 		--description 'Cloudflare Tunnel daemon' \
 		--vendor 'Cloudflare' \
 		--license 'Apache License Version 2.0' \
-		--url 'https://github.com/cloudflare/cloudflared' \
+		--url 'https://github.com/sohumb/cloudflared' \
 		-m 'Cloudflare <support@cloudflare.com>' \
 	    -a $(PACKAGE_ARCH) -v $(VERSION) -n $(DEB_PACKAGE_NAME) $(RPM_DIGEST) $(NIGHTLY_FLAGS) --after-install postinst.sh --after-remove postrm.sh \
 		cloudflared=$(INSTALL_BINDIR) cloudflared.1=$(INSTALL_MANDIR)
@@ -260,8 +260,8 @@ quic-deps:
 
 .PHONY: vet
 vet:
-	go vet -v -mod=vendor github.com/cloudflare/cloudflared/...
+	go vet -v -mod=vendor github.com/sohumb/cloudflared/...
 
 .PHONY: fmt
 fmt:
-	goimports -l -w -local github.com/cloudflare/cloudflared $$(go list -mod=vendor -f '{{.Dir}}' -a ./... | fgrep -v tunnelrpc)
+	goimports -l -w -local github.com/sohumb/cloudflared $$(go list -mod=vendor -f '{{.Dir}}' -a ./... | fgrep -v tunnelrpc)

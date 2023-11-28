@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/cloudflare/cloudflared/features"
+	"github.com/sohumb/cloudflared/features"
 )
 
 // When experimental post-quantum tunnels are enabled, and we're hitting an

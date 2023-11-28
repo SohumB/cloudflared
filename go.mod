@@ -1,4 +1,4 @@
-module github.com/cloudflare/cloudflared
+module github.com/sohumb/cloudflared
 
 go 1.20
 

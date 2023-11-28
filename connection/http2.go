@@ -16,8 +16,8 @@ import (
 	"github.com/rs/zerolog"
 	"golang.org/x/net/http2"
 
-	"github.com/cloudflare/cloudflared/tracing"
-	tunnelpogs "github.com/cloudflare/cloudflared/tunnelrpc/pogs"
+	"github.com/sohumb/cloudflared/tracing"
+	tunnelpogs "github.com/sohumb/cloudflared/tunnelrpc/pogs"
 )
 
 // note: these constants are exported so we can reuse them in the edge-side code

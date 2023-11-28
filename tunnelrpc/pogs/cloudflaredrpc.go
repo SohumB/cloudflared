@@ -1,7 +1,7 @@
 package pogs
 
 import (
-	"github.com/cloudflare/cloudflared/tunnelrpc"
+	"github.com/sohumb/cloudflared/tunnelrpc"
 	capnp "zombiezen.com/go/capnproto2"
 	"zombiezen.com/go/capnproto2/rpc"
 )

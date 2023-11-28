@@ -23,14 +23,14 @@ import (
 	"github.com/urfave/cli/v2"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/cloudflare/cloudflared/cfio"
-	"github.com/cloudflare/cloudflared/config"
-	"github.com/cloudflare/cloudflared/connection"
-	"github.com/cloudflare/cloudflared/hello"
-	"github.com/cloudflare/cloudflared/ingress"
-	"github.com/cloudflare/cloudflared/logger"
-	"github.com/cloudflare/cloudflared/tracing"
-	tunnelpogs "github.com/cloudflare/cloudflared/tunnelrpc/pogs"
+	"github.com/sohumb/cloudflared/cfio"
+	"github.com/sohumb/cloudflared/config"
+	"github.com/sohumb/cloudflared/connection"
+	"github.com/sohumb/cloudflared/hello"
+	"github.com/sohumb/cloudflared/ingress"
+	"github.com/sohumb/cloudflared/logger"
+	"github.com/sohumb/cloudflared/tracing"
+	tunnelpogs "github.com/sohumb/cloudflared/tunnelrpc/pogs"
 )
 
 var (

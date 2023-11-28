@@ -23,13 +23,13 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/cloudflare/cloudflared/datagramsession"
-	"github.com/cloudflare/cloudflared/ingress"
-	"github.com/cloudflare/cloudflared/management"
-	"github.com/cloudflare/cloudflared/packet"
-	quicpogs "github.com/cloudflare/cloudflared/quic"
-	"github.com/cloudflare/cloudflared/tracing"
-	tunnelpogs "github.com/cloudflare/cloudflared/tunnelrpc/pogs"
+	"github.com/sohumb/cloudflared/datagramsession"
+	"github.com/sohumb/cloudflared/ingress"
+	"github.com/sohumb/cloudflared/management"
+	"github.com/sohumb/cloudflared/packet"
+	quicpogs "github.com/sohumb/cloudflared/quic"
+	"github.com/sohumb/cloudflared/tracing"
+	tunnelpogs "github.com/sohumb/cloudflared/tunnelrpc/pogs"
 )
 
 const (

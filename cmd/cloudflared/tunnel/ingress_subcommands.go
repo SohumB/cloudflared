@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/cloudflare/cloudflared/cmd/cloudflared/cliutil"
-	"github.com/cloudflare/cloudflared/config"
-	"github.com/cloudflare/cloudflared/ingress"
+	"github.com/sohumb/cloudflared/cmd/cloudflared/cliutil"
+	"github.com/sohumb/cloudflared/config"
+	"github.com/sohumb/cloudflared/ingress"
 
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"

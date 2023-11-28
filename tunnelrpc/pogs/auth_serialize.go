@@ -6,7 +6,7 @@ import (
 	"zombiezen.com/go/capnproto2/pogs"
 	"zombiezen.com/go/capnproto2/server"
 
-	"github.com/cloudflare/cloudflared/tunnelrpc"
+	"github.com/sohumb/cloudflared/tunnelrpc"
 )
 
 func (i TunnelServer_PogsImpl) Authenticate(p tunnelrpc.TunnelServer_authenticate) error {

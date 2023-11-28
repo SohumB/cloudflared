@@ -18,8 +18,8 @@ import (
 	"github.com/go-jose/go-jose/v3/jwt"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cloudflare/cloudflared/config"
-	cfpath "github.com/cloudflare/cloudflared/token"
+	"github.com/sohumb/cloudflared/config"
+	cfpath "github.com/sohumb/cloudflared/token"
 )
 
 const (

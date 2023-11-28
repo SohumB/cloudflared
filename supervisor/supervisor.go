@@ -13,12 +13,12 @@ import (
 
 	qtls120 "github.com/quic-go/qtls-go1-20"
 
-	"github.com/cloudflare/cloudflared/connection"
-	"github.com/cloudflare/cloudflared/edgediscovery"
-	"github.com/cloudflare/cloudflared/orchestration"
-	"github.com/cloudflare/cloudflared/retry"
-	"github.com/cloudflare/cloudflared/signal"
-	"github.com/cloudflare/cloudflared/tunnelstate"
+	"github.com/sohumb/cloudflared/connection"
+	"github.com/sohumb/cloudflared/edgediscovery"
+	"github.com/sohumb/cloudflared/orchestration"
+	"github.com/sohumb/cloudflared/retry"
+	"github.com/sohumb/cloudflared/signal"
+	"github.com/sohumb/cloudflared/tunnelstate"
 )
 
 const (

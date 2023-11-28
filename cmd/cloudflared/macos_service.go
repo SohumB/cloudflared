@@ -9,8 +9,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 
-	"github.com/cloudflare/cloudflared/cmd/cloudflared/cliutil"
-	"github.com/cloudflare/cloudflared/logger"
+	"github.com/sohumb/cloudflared/cmd/cloudflared/cliutil"
+	"github.com/sohumb/cloudflared/logger"
 )
 
 const (

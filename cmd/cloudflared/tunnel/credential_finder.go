@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/cloudflare/cloudflared/config"
-	"github.com/cloudflare/cloudflared/credentials"
+	"github.com/sohumb/cloudflared/config"
+	"github.com/sohumb/cloudflared/credentials"
 
 	"github.com/google/uuid"
 	"github.com/rs/zerolog"

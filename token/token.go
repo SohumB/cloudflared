@@ -16,8 +16,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 
-	"github.com/cloudflare/cloudflared/config"
-	"github.com/cloudflare/cloudflared/retry"
+	"github.com/sohumb/cloudflared/config"
+	"github.com/sohumb/cloudflared/retry"
 )
 
 const (

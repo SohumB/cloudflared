@@ -6,7 +6,7 @@ import (
 	capnp "zombiezen.com/go/capnproto2"
 	"zombiezen.com/go/capnproto2/pogs"
 
-	"github.com/cloudflare/cloudflared/quic/schema"
+	"github.com/sohumb/cloudflared/quic/schema"
 )
 
 // ConnectionType indicates the type of underlying connection proxied within the QUIC stream.

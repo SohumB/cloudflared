@@ -16,8 +16,8 @@ import (
 	"golang.org/x/term"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/cloudflare/cloudflared/features"
-	"github.com/cloudflare/cloudflared/management"
+	"github.com/sohumb/cloudflared/features"
+	"github.com/sohumb/cloudflared/management"
 )
 
 const (

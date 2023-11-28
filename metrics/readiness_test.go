@@ -8,8 +8,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cloudflare/cloudflared/connection"
-	"github.com/cloudflare/cloudflared/tunnelstate"
+	"github.com/sohumb/cloudflared/connection"
+	"github.com/sohumb/cloudflared/tunnelstate"
 )
 
 func TestReadyServer_makeResponse(t *testing.T) {

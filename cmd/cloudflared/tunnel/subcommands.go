@@ -21,11 +21,11 @@ import (
 	"golang.org/x/net/idna"
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/cloudflare/cloudflared/cfapi"
-	"github.com/cloudflare/cloudflared/cmd/cloudflared/cliutil"
-	"github.com/cloudflare/cloudflared/cmd/cloudflared/updater"
-	"github.com/cloudflare/cloudflared/config"
-	"github.com/cloudflare/cloudflared/connection"
+	"github.com/sohumb/cloudflared/cfapi"
+	"github.com/sohumb/cloudflared/cmd/cloudflared/cliutil"
+	"github.com/sohumb/cloudflared/cmd/cloudflared/updater"
+	"github.com/sohumb/cloudflared/config"
+	"github.com/sohumb/cloudflared/connection"
 )
 
 const (

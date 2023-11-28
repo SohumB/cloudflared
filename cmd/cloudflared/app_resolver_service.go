@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/rs/zerolog"
 
-	"github.com/cloudflare/cloudflared/config"
-	"github.com/cloudflare/cloudflared/tunneldns"
+	"github.com/sohumb/cloudflared/config"
+	"github.com/sohumb/cloudflared/tunneldns"
 )
 
 const (

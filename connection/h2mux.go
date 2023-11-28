@@ -5,7 +5,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/cloudflare/cloudflared/h2mux"
+	"github.com/sohumb/cloudflared/h2mux"
 )
 
 const (

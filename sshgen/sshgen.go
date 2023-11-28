@@ -20,8 +20,8 @@ import (
 	"github.com/pkg/errors"
 	gossh "golang.org/x/crypto/ssh"
 
-	"github.com/cloudflare/cloudflared/config"
-	cfpath "github.com/cloudflare/cloudflared/token"
+	"github.com/sohumb/cloudflared/config"
+	cfpath "github.com/sohumb/cloudflared/token"
 )
 
 const (

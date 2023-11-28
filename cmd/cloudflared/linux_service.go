@@ -9,10 +9,10 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/urfave/cli/v2"
 
-	"github.com/cloudflare/cloudflared/cmd/cloudflared/cliutil"
-	"github.com/cloudflare/cloudflared/cmd/cloudflared/tunnel"
-	"github.com/cloudflare/cloudflared/config"
-	"github.com/cloudflare/cloudflared/logger"
+	"github.com/sohumb/cloudflared/cmd/cloudflared/cliutil"
+	"github.com/sohumb/cloudflared/cmd/cloudflared/tunnel"
+	"github.com/sohumb/cloudflared/config"
+	"github.com/sohumb/cloudflared/logger"
 )
 
 func runApp(app *cli.App, graceShutdownC chan struct{}) {

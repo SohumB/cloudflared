@@ -7,7 +7,7 @@ ENV GO111MODULE=on \
     TARGET_GOOS=${TARGET_GOOS} \
     TARGET_GOARCH=${TARGET_GOARCH}
     
-WORKDIR /go/src/github.com/cloudflare/cloudflared/
+WORKDIR /go/src/github.com/sohumb/cloudflared/
 
 # copy our sources into the builder image
 COPY . .
@@ -18,10 +18,10 @@ RUN make cloudflared
 # use a distroless base image with glibc
 FROM gcr.io/distroless/base-debian11:nonroot
 
-LABEL org.opencontainers.image.source="https://github.com/cloudflare/cloudflared"
+LABEL org.opencontainers.image.source="https://github.com/sohumb/cloudflared"
 
 # copy our compiled binary
-COPY --from=builder --chown=nonroot /go/src/github.com/cloudflare/cloudflared/cloudflared /usr/local/bin/
+COPY --from=builder --chown=nonroot /go/src/github.com/sohumb/cloudflared/cloudflared /usr/local/bin/
 
 # run as non-privileged user
 USER nonroot

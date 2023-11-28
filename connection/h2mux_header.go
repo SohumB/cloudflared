@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cloudflare/cloudflared/h2mux"
+	"github.com/sohumb/cloudflared/h2mux"
 )
 
 // H2RequestHeadersToH1Request converts the HTTP/2 headers coming from origintunneld

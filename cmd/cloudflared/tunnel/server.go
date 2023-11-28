@@ -3,7 +3,7 @@ package tunnel
 import (
 	"fmt"
 
-	"github.com/cloudflare/cloudflared/tunneldns"
+	"github.com/sohumb/cloudflared/tunneldns"
 
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"

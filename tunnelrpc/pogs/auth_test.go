@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	capnp "zombiezen.com/go/capnproto2"
 
-	"github.com/cloudflare/cloudflared/tunnelrpc"
+	"github.com/sohumb/cloudflared/tunnelrpc"
 )
 
 // Ensure the AuthOutcome sum is correct

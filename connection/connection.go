@@ -15,9 +15,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/cloudflare/cloudflared/tracing"
-	"github.com/cloudflare/cloudflared/tunnelrpc/pogs"
-	"github.com/cloudflare/cloudflared/websocket"
+	"github.com/sohumb/cloudflared/tracing"
+	"github.com/sohumb/cloudflared/tunnelrpc/pogs"
+	"github.com/sohumb/cloudflared/websocket"
 )
 
 const (

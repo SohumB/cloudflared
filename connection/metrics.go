@@ -6,7 +6,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cloudflare/cloudflared/h2mux"
+	"github.com/sohumb/cloudflared/h2mux"
 )
 
 const (

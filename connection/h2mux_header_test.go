@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudflare/cloudflared/h2mux"
+	"github.com/sohumb/cloudflared/h2mux"
 )
 
 type ByName []h2mux.Header
